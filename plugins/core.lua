@@ -22,14 +22,14 @@ return {
   },
   -- Disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
-  {
-    "max397574/better-escape.nvim",
-    event = "InsertCharPre",
-    opts = {
-      timeout = 300,
-      mapping = { "fd" },
-    },
-  },
+  -- {
+  --   "max397574/better-escape.nvim",
+  --   event = "InsertCharPre",
+  --   opts = {
+  --     timeout = 300,
+  --     mapping = { "fd" },
+  --   },
+  -- },
   -- Customize additional setup of plugins outside of the plugin's setup call
   {
     "L3MON4D3/LuaSnip",
