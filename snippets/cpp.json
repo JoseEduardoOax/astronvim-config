@@ -1,0 +1,20 @@
+{
+  "setup": {
+    "prefix": [
+      "gen",
+      "generate"
+    ],
+    "body": [
+      "#pragma once",
+      "#ifndef $1_HPP",
+      "#define $1_HPP",
+      "",
+      "class $2 {",
+      "$3",
+      "};",
+      "",
+      "#endif // !$1"
+    ],
+    "description": "My standard setup Vue3 + TS"
+  }
+}

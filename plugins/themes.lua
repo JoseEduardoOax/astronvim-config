@@ -7,7 +7,8 @@
 
 return {
   {
-    "AstroNvim/astrotheme", -- default AstroNvim theme
+    -- "AstroNvim/astrotheme", -- default AstroNvim theme
+    "EdenEast/nightfox.nvim",
     lazy = false,
   },
 

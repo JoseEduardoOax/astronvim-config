@@ -1,3 +1,4 @@
+vim.cmd "set whichwrap+=<,>,[,],h,l" --cuando estas al inicio de una linea puedas ir al final de la linea anterior y viceversa
 -- set vim options here (vim.<first_key>.<second_key> = value)
 return {
   opt = {
