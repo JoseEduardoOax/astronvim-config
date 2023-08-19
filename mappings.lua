@@ -77,7 +77,7 @@ return {
 
 
     ["<leader>i"] = { name = " Cpp" },
-        ["<leader>iy"] = { ":w <CR> :!./run compile<CR>", desc = "Compile cpp"},
+    ["<leader>iy"] = { ":w <CR> :!./run compile<CR>", desc = "Compile cpp"},
     ["<leader>ii"] = { ":w <CR> :!./run<CR>", desc = "Run cpp"},
 
     ["<C-A>"] = {"gg0vG$", desc="Selected all text"},

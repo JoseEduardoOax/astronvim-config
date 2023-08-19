@@ -1,4 +1,8 @@
 vim.cmd "set whichwrap+=<,>,[,],h,l" --cuando estas al inicio de una linea puedas ir al final de la linea anterior y viceversa
+vim.cmd "set autoindent"
+vim.cmd "set expandtab"
+vim.cmd "set tabstop=2"
+vim.cmd "set shiftwidth=2"
 -- set vim options here (vim.<first_key>.<second_key> = value)
 return {
   opt = {
@@ -19,7 +23,7 @@ return {
     autopairs_enabled = true,        -- enable autopairs at start
     diagnostics_mode = 3,            -- set the visibility of diagnostics in the UI (0=off, 1=only show in status line, 2=virtual text off, 3=all on)
     icons_enabled = true,            -- disable icons in the UI (disable if no nerd font is available, requires :PackerSync after changing)
-    ui_notifications_enabled = true, -- disable notifications when toggling UI elements
+    ui_notifications_enabled = false, -- disable notifications when toggling UI elements
     VM_leader = "gm",                -- Visual Multi Leader (multiple cursors)
   },
 }
